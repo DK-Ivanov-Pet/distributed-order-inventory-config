@@ -1,0 +1,19 @@
+spring:
+  main:
+    allow-circular-references: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inventory_management
+    username: dev
+    password: 123dev123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
