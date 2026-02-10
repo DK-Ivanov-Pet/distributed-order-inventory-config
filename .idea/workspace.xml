@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b917418e-c244-4910-b36c-999977a526f2" name="Changes" comment="add main modules">
+    <list default="true" id="b917418e-c244-4910-b36c-999977a526f2" name="Changes" comment="add saga to order-service, user-service and product-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770119614208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add saga to order-service, user-service and product-service">
+      <option name="closed" value="true" />
+      <created>1770635395895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770635395895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" bag fix: add inventory-service and product-service config" />
     <MESSAGE value="add main modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main modules" />
+    <MESSAGE value="add saga to order-service, user-service and product-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add saga to order-service, user-service and product-service" />
   </component>
 </project>

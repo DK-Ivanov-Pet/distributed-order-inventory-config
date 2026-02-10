@@ -28,3 +28,7 @@ grpc:
       address: discovery:///product-service
       negotiationType: plaintext
       enable-keepalive: true
+    inventory-service:
+      address: discovery:///inventory-service
+      negotiationType: plaintext
+      enable-keepalive: true
